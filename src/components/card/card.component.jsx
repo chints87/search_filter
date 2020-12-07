@@ -1,7 +1,7 @@
 import React from 'react';
 import './card.styles.css'
 
-export const Card = (props) => {
+const Card = (props) => {
     // you can't add word picture in alt
     return (
       <div className="card-container">
@@ -14,7 +14,7 @@ export const Card = (props) => {
     
 }
 
-
+export default Card
 
 
 
